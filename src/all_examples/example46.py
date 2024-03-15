@@ -30,7 +30,7 @@ def merge_dictionaries(first: Dict[str, int], second: Dict[str, int]) -> Dict[st
         else:
             merged[key] = second[key]
 
-    return
+    return merged
 
 
 async def main(partition_size: int):
